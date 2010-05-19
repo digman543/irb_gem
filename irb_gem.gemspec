@@ -22,8 +22,7 @@ So you have to install again. Irbgem try to make this easy.
      "README.markdown"
   ]
   s.files = [
-    ".document",
-     ".gitignore",
+    ".gitignore",
      "LICENSE",
      "README.markdown",
      "Rakefile",
