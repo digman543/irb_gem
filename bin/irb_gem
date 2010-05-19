@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby -wKU
+$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
+
+require 'irb_gem'
+
+gems = IrbGem.find_gems
+
+IrbGem.install_gems(gems, *ARGV)
