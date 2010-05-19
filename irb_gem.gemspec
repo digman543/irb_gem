@@ -19,13 +19,13 @@ So you have to install again. Irbgem try to make this easy.
   s.executables = ["irb_gem"]
   s.extra_rdoc_files = [
     "LICENSE",
-     "README.rdoc"
+     "README.markdown"
   ]
   s.files = [
     ".document",
      ".gitignore",
      "LICENSE",
-     "README.rdoc",
+     "README.markdown",
      "Rakefile",
      "VERSION.yml",
      "bin/irb_gem",
