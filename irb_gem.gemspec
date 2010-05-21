@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{irb_gem}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["digman543"]
-  s.date = %q{2010-05-19}
+  s.date = %q{2010-05-21}
   s.default_executable = %q{irb_gem}
   s.description = %q{Once you change your ruby environment, but .ircdoc is still exist.
 And you try to use irb to figure out some code. But irb seems wireld, this is some gems are not exist.

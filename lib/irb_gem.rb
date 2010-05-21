@@ -15,13 +15,12 @@ module IrbGem
       cmd.handle_options options
     end
     
-    gems.each do |gem_name|
-      cmd.options[:args] = gem_name
-      begin
-        cmd.execute
-      rescue Gem::SystemExitException => e
-        # catech gem installed exception
-      end
+    cmd.options[:args] = gems
+    
+    begin
+      cmd.execute
+    rescue Gem::SystemExitException => e
+      # catech gem installed exception
     end
   end
   
